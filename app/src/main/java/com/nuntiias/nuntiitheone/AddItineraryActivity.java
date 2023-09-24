@@ -173,7 +173,7 @@ public class  AddItineraryActivity extends AppCompatActivity {
                     Request request = new Request.Builder()
                             .url(url)
                             .get()
-                            .addHeader("x-rapidapi-key", "4986bafec1msh5a1d233cf14a74cp12fdccjsn5a0a72605af9 ")
+                            .addHeader("x-rapidapi-key", " ")
                             .addHeader("x-rapidapi-host", "aerodatabox.p.rapidapi.com")
                             .build();
 
