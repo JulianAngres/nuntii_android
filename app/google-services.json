@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "655951599311",
+    "project_id": "nuntiitheone",
+    "storage_bucket": "nuntiitheone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655951599311:android:0926bf1821a32c5cfbc9ba",
+        "android_client_info": {
+          "package_name": "com.nuntiias.nuntiitheone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655951599311-32c2pf379ft5g8m80l7rl5k83aalsb0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWuu30bBlSQqrY3QDNcTwigdLef463Atw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655951599311-32c2pf379ft5g8m80l7rl5k83aalsb0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        app:cardBackgroundColor="@color/teal_700"
+        app:cardCornerRadius="4dp" >
+
+        <TextView
+            android:id="@+id/RV_iataOrigin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ORI"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="22dp"/>
+
+        <TextView
+            android:id="@+id/RV_iataDestination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DES"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="270dp"/>
+
+        <TextView
+            android:id="@+id/RV_dateDestination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:layout_marginTop="165dp"
+            android:layout_marginLeft="270dp"/>
+
+        <TextView
+            android:id="@+id/RV_timeDestination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="time"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:layout_marginTop="185dp"
+            android:layout_marginLeft="270dp"/>
+
+        <TextView
+            android:id="@+id/RV_airportDestination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DES"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_marginTop="85dp"
+            android:layout_marginLeft="270dp"/>
+
+        <TextView
+            android:id="@+id/RV_dateOrigin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:layout_marginTop="165dp"
+            android:layout_marginLeft="22dp"/>
+
+        <TextView
+            android:id="@+id/RV_timeOrigin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="time"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:layout_marginTop="185dp"
+            android:layout_marginLeft="22dp"/>
+
+        <TextView
+            android:id="@+id/RV_airportOrigin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ORI"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_marginTop="85dp"
+            android:layout_marginLeft="22dp"/>
+
+        <Button
+            android:id="@+id/strek"
+            android:layout_width="140sp"
+            android:layout_height="15sp"
+            android:text=""
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="120dp"/>
+
+        <TextView
+            android:id="@+id/RV_flightNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/RV_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="190dp"
+            android:layout_marginLeft="140dp"/>
+
+        <TextView
+            android:id="@+id/RV_nuntius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:text=""
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="120dp"/>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
